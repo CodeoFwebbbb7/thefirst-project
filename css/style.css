@@ -1,0 +1,161 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.hed-1 {
+
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-pro2 {
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    margin-left: 40px;
+}
+
+.navbar-1 {
+    text-align: center;
+    display: flex;
+    gap: 63px;
+    align-items: center;
+    margin: auto;
+}
+
+.navbar-1 li {
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-size: 22px;
+    font-weight: 300px;
+
+}
+
+.btn-1 {
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 10px;
+    margin: auto;
+    color: #f7f7f7;
+    width: 180px;
+    border: none;
+    background-color: #0066ff;
+    height: 70px;
+}
+
+.art-1 {
+    width: 100%;
+    min-height: 100vh;
+    background: url(../img/ph-hos.jpg) no-repeat;
+    background-size: cover;
+}
+
+.text-art1 {
+    width: 500px;
+    padding: 140px;
+}
+
+.text-h2 {
+    color: #0066ff;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.text-h1 {
+    font-size: 70px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.sp-text-h1 {
+    color: #0066ff;
+}
+
+.text-p {
+    font-size: 13px;
+    font-weight: 500;
+    font-family: sans-serif;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+.btn-2 {
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: auto;
+    color: #f7f7f7;
+    width: 270px;
+    border: none;
+    background-color: #0066ff;
+    height: 70px;
+}
+
+.register {
+    position: absolute;
+    right: 10%;
+    top: 60%;
+    transform: translateY(-50%);
+    width: 380px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+    z-index: 10;
+    /* لضمان ظهور الفورم فوق أي عنصر آخر */
+}
+
+.form-cut {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.form-cut h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.form-content {
+    padding: 25px;
+}
+
+.form-content p {
+    color: #777;
+    font-size: 13px;
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+.form-content input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    background-color: #f7f7f7;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+.btn-submit {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+}
